@@ -4,7 +4,7 @@
       <img src='assets/images/logo.png' height='64px' width='64px'>
     </div>
     <div class='link' *ngFor='let link of links' [routerLink]="link['link']">
-      <p [ngClass]="isRouteActive(link['link'])">{{link['display']}}</p>
+      <p [ngClass]="getRouteClass(link['link'])">{{link['display']}}</p>
     </div>
   </div>
 </div>

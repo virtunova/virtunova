@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CoboComponent } from './cobo/cobo.component';
 import { PathNotFoundComponent } from './path-not-found/path-not-found.component';
 import { HomeComponent } from './home/home.component';
