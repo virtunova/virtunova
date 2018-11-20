@@ -1,7 +1,7 @@
 <div class='navbar'>
   <div class='left'>
     <div class='logo' routerLink="/home">
-      <img src='/assets/images/logo.png' height='64px' width='64px'>
+      <img src='assets/images/logo.png' height='64px' width='64px'>
     </div>
     <div class='link' *ngFor='let link of links' [routerLink]="link['link']">
       <p [ngClass]="isRouteActive(link['link'])">{{link['display']}}</p>
