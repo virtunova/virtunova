@@ -11,5 +11,4 @@ export class CoboComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }

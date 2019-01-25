@@ -7,8 +7,20 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="/assets/images/logo.png">
+  <script>
+  
+  window.onload = function() {
+    Array.from(document.body.children).forEach(element => {
+      if (element.nodeName == "DIV") {
+        if (element.children[0]['title'] == "Hosted on free web hosting 000webhost.com. Host your own website for FREE.") {
+          element.remove();
+        }
+      }
+    });
+  }
+  </script>
 </head>
-<body>
+<body style="background: url('/assets/images/background.png') repeat-y center 0 fixed;">
   <app-root></app-root>
 </body>
 </html>

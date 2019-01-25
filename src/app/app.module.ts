@@ -9,6 +9,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CoboComponent } from './cobo/cobo.component';
 import { PathNotFoundComponent } from './path-not-found/path-not-found.component';
 import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { HomeComponent } from './home/home.component';
 		CoboComponent,
 		PathNotFoundComponent,
 		HomeComponent,
+		AboutComponent,
+		ContactComponent,
   ],
   imports: [
     BrowserModule,
@@ -26,4 +30,5 @@ import { HomeComponent } from './home/home.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

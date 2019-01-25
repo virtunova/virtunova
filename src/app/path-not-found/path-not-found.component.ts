@@ -8,7 +8,6 @@ import { Component, OnInit } from '@angular/core';
 export class PathNotFoundComponent implements OnInit {
 
   constructor() { }
-
   ngOnInit() {
   }
 
