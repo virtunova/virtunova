@@ -20,7 +20,7 @@ export class AppComponent {
   links = [
     { 'display': 'Home', 'link': 'home', },
     { 'display': 'CoBo', 'link': 'cobo' },
-    { 'display': 'About Us', 'link': 'about' },
+    //{ 'display': 'About Us', 'link': 'about' },
     { 'display': 'Contact', 'link': 'contact' },
   ];
   prepareRoute(outlet: RouterOutlet) {
